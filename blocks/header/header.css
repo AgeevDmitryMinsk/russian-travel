@@ -1,0 +1,62 @@
+.header {
+    position: relative;
+    /*/* чтобы блок .header был родителем лем своих "деток"-внутренних блоков, иначе "детки" лепятся по краям экрана,
+                        при изменении масштаба.*/
+    width: 92.5%; /*1184x100/1280=92.5*/
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 80px; /*28+52=80px*/
+}
+
+/* header */
+/*width: 1184px;
+  height: 52px;
+  left: 48px;
+  top: 28px;*/
+
+
+
+/* __lang-link
+
+position: absolute;
+width: 29px;
+height: 28px;
+left: 1203px;
+top: 46px;
+
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+/* identical to box height, or 117% */
+/*text-align: right;
+
+color: #FFFFFF;*/
+
+
+
+/* __lang-link
+
+position: absolute;
+width: 30px;
+height: 28px;
+left: 1155px;
+top: 46px;
+
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+/* identical to box height, or 117% */
+/*text-align: right;
+text-decoration-line: underline;
+
+color: #FFFFFF;*/
+
+
+
+
