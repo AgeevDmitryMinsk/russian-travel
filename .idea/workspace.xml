@@ -3,12 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="70a2ebb3-a6a6-4283-8437-87bad99eb810" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/header/__logo/header__logo.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/header/__logo/header__logo.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/header/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/header/header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/page/page.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/page/page.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +52,7 @@
       <workItem from="1606420538434" duration="2983000" />
       <workItem from="1606581957050" duration="154000" />
       <workItem from="1606582255478" duration="7302000" />
-      <workItem from="1606999600154" duration="1198000" />
+      <workItem from="1606999600154" duration="3425000" />
     </task>
     <servers />
   </component>
