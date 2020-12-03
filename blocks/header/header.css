@@ -3,35 +3,25 @@
   margin: 0 auto;
   display: flex;
   align-items: center;
-  justify-content: space-between;        
-  padding: 28px 48px 56px 48px;           
+  justify-content: space-between;
+  padding: 28px 48px 56px 48px;
 }
-
-
-@media (min-width: 1280px) {
-/* мой CSS */   
-}
-
 
 @media (min-width: 1024px) and (max-width: 1279px) {
-
-.header {              
-  padding-bottom: 48px;            
-}    
+  .header {
+      padding-bottom: 48px;
+  }
 }
-
 
 @media (min-width: 768px) and (max-width: 1023px) {
-
-.header {              
-  padding-left: 24px;
-  padding-right: 24px;         
-}    
+  .header {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
 }
 
-
 @media (min-width: 320px) and (max-width: 767px) {
-.header {              
-padding: 16px 16px 48px 16px;        
-}  
+  .header {
+    padding: 16px 16px 48px 16px;
+  }
 }

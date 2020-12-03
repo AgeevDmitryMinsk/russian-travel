@@ -1,16 +1,16 @@
-.header__lang-link {          
+.header__lang-link {
     margin: 0 0 0 18px;
-    padding: 0;    
+    padding: 0;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
-    line-height: 1.17; /*28px;*/    
-    color: #FFFFFF;/*здесь изменение цвет ссылок на белый нужно) */    
+    line-height: 1.17; /*28px;*/
+    color: #FFFFFF;/*здесь изменение цвет ссылок на белый нужно) */
     text-decoration: none;
     /*margin-right: 18px;*/
     opacity: 1;
     transition: opacity .5s ease;
-    }
+}
 
 @media (min-width: 320px) and (max-width: 767px) {
   .header__lang-link {
