@@ -1,0 +1,27 @@
+.place__title {
+    margin: 0;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 1.06;
+    /* лучше указать 1.06, чтобы при измен высоты шрифта не дублиировать изменение интерльяжа /* 76px; or 106% */
+    /*color: #FFFFFF; - здесь дублир цвета не нужно)*/
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .place__title {
+        font-size: 42px;
+        line-height: 1.1;
+        max-width: 330px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767px) { 
+    .place__title {  
+        font-size: 32px;
+        line-height: 1.09; 
+        padding-left: 16px;
+    }
+}

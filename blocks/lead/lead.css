@@ -1,0 +1,36 @@
+.lead {
+    max-width: 984px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 92px;
+    margin: 0 auto;
+    box-sizing: border-box; /*border-box говорит браузеру учитывать любые границы и внутренние отступы в значениях,
+                              которые вы указываете в ширине и высоте элемента. */
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+    .lead {
+    max-width: 928px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .lead {
+    max-width: 768px;
+    /*max-width: 768px;*/ /* потом закоментил для плавности при сужении экрана с 1024 на 1023,
+                             т.е. чтобы не было резкого скачка ширины с 984 сразу на 768рх, 
+                             а потом 30/11 снова раскоментил для соотв с pixel*/
+    padding-bottom: 88px;
+    }
+}
+    
+    
+@media (min-width: 320px) and (max-width: 767px) { 
+    .lead {
+    /*max-width: 320px;*/ /*закоментил для плавностипри сужении экрана с 768 на 767,
+                           т.е. чтобы не было резкого скачка ширины с 768 сразу на 320рх*/
+    
+    padding-bottom: 64px;
+    }
+}    

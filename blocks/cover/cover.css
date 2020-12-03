@@ -1,0 +1,58 @@
+.cover {
+    position: relative;
+    /* из вебинара от 26 ноября @Георгия Девяткина Респонсив и адаптив*/
+    max-width: 1280px;
+    margin: 0 auto;
+    background-image: url(../../images/cover-trains-tiny.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-sizing: border-box;
+    padding: 245px 0;
+    transition: opacity ease-in-out;
+}
+
+.cover::before {
+    content: '';
+    position: absolute;
+    background-color: #2A2C2F;
+    opacity: 0.3;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.cover:hover::before {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+@media screen and (min-width:1280px) {
+    .cover {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .cover {
+        margin-left: 0;
+        margin-right: 0;
+        padding: 195px 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover {
+        /*margin: 0 0 88px;*/
+        padding: 140px 0;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .cover {
+        margin: 30px 0 64px;
+        padding: 33px 0;
+    }
+}

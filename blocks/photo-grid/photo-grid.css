@@ -1,0 +1,34 @@
+.photo-grid {
+    max-width: 1184px;
+    margin: 0 auto;
+    padding: 0 48px 52px 48px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+    gap: 16px;
+    /*48/3=16px*/
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+    .photo-grid {
+        /*max-width: 928px; /*убрал таки, мешает плавному сжатию блока с фоткам при плавном сжатии, т.е.
+        с max-width: 928px размер блока с картинки меняется ступеньками, и это уже не фото-"резина" */
+        padding: 0 48px 52px 48px;
+        gap: 14px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .photo-grid {
+        /*max-width: 720px;*/
+        padding: 0 24px 48px 24px;
+        gap: 16px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .photo-grid {
+        /*max-width: 720px;*/
+        padding: 0 16px 40px 16px;
+        gap: 12px;
+    }
+}

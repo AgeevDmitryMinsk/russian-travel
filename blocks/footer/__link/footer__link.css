@@ -1,0 +1,29 @@
+.footer__link {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    /* identical to box height, or 112% */
+    color: #FFFFFF;
+    /*color: white;*/
+    text-decoration: none;
+    opacity: 1;
+    transition: opacity .5s ease;
+    margin: 0 18px 0 0;
+    /*margin-right: 18px;*/
+}
+
+.footer__link:hover {
+    opacity: .5;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .footer__link {
+        margin-bottom: 32px;
+        font-size: 24px;
+        line-height: 1;
+    }
+    .footer__link:last-child {
+        margin-bottom: 48px;
+    }
+}

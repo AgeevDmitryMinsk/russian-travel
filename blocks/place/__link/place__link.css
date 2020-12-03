@@ -1,0 +1,15 @@
+.place__link {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 1.22;
+    /* 22px identical to box height, or 122% */
+    text-decoration-line: underline;
+    color: #FFFFFF;
+    /*здесь цвет link ссылки нужен!*/
+    transition: opacity .2s linear;
+}
+
+.place__link:hover {
+    opacity: .8;
+}

@@ -1,0 +1,12 @@
+.place__website {
+    align-self: end;
+    /*display: none; - для разрешения ниже 767*/
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .place__website { 
+        display: none;      
+        /*visibility: hidden; практически = display: none; но, другие отступы появляются, 
+        те убрать отображение - для разрешения ниже 767*/
+    }
+}
