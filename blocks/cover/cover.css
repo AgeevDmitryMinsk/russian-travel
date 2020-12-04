@@ -1,17 +1,37 @@
 .cover {
-    position: relative;
-    /* из вебинара от 26 ноября @Георгия Девяткина Респонсив и адаптив*/
-    max-width: 1280px;
-    margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  color: #ffffff;
+  padding-top: 16px;
+  margin: 0 auto;
+  max-width: 1184px;
+  max-height: 740px;
+}
+
+@media screen and (min-width: 768px) {
+  .cover {
+    padding-top: 45px;
+  }
+}
+
+    /*В блоке cover может быть не один элемент cover__overlay-link.
+    А это значит, что размеры и фон нужно соотнести к cover__overlay-link, пусть размер блока cover зависит от контента в данном случае от наших ссылок. 
+    Поэтому лучшим решением будет указать свойства для самой ссылки. 
+    Ни каких абсолютов и отступов для центровки контента внутри ссылки, только возможности флекса.*/
+    /*Владимир Шевченко, ревьюер, 04/12*/
+    /*max-width: 1280px; 
+      margin: 0 auto;
     background-image: url(../../images/cover-trains-tiny.jpg);
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: center;
-    box-sizing: border-box;
-    padding: 245px 0;
-    transition: opacity ease-in-out;
-}
+    background-position: center;*/    
+    /*transition: opacity ease-in-out;*/
 
+
+
+/*
 .cover::before {
     content: '';
     position: absolute;
@@ -45,7 +65,7 @@
 
 @media screen and (max-width: 768px) {
     .cover {
-        /*margin: 0 0 88px;*/
+        
         padding: 140px 0;
     }
 }
@@ -55,4 +75,4 @@
         margin: 30px 0 64px;
         padding: 33px 0;
     }
-}
+}*/

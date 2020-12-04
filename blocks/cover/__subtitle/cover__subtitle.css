@@ -1,26 +1,19 @@
-.cover__subtitle {
-    position: relative;
-    font-weight: normal;
+.cover__subtitle{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.14;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 260px;
+  text-align: center;
+  position: relative;
+}
+
+@media screen and (min-width: 768px) {
+  .cover__subtitle {
     font-size: 18px;
     line-height: 1.22;
-    text-align: center;
-    color: #FFFFFF;
-    margin: 38px auto 0;
-    max-width: 380px;
-}
-
-@media screen and (max-width: 768px) {
-    .cover__subtitle {
-        margin-top: 32px;
-    }
-}
-
-@media screen and (max-width:320px) {
-    .cover__subtitle {
-        font-size: 14px;
-        line-height: 1.14;
-        /*16px*/
-        margin-top: 16px;
-        max-width: 288px;
-    }
+    max-width: 360px;
+  }
 }

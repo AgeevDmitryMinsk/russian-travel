@@ -1,5 +1,5 @@
 
-.place {
+.place {    
     padding: 40px 0;
     display: grid;
     grid-template-columns: 460px fit-content(484px);
@@ -25,7 +25,7 @@
 }
 
 @media screen and (max-width: 767px) {
-    .place {
+    .place {      
       padding: 33px 0;
       grid-template-columns: minmax(288px, 1fr);
       grid-gap: 32px;

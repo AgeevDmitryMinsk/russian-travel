@@ -1,6 +1,11 @@
 .intro__list {
-    max-width: 690px;
+    /*Для улучшения семантики перечисляемые блоки можно выделить в список ul. 
+    Обратите внимание, что у списков следует убрать стандартные стили: 
+    margin, padding, list-style-type - Ревьюер Владимир Шевченко 04/12*/
+    list-style-type: none;
     margin: 0;
+    padding: 0;
+    max-width: 690px;    
     font-style: normal;
     font-weight: bold;
     font-size: 12px;
