@@ -1,6 +1,6 @@
 
 .place {    
-    padding: 40px 0;
+    padding: 41px 0; /*изменил 40px 0 на 41px 0 - 05/12 сверив c PerfectPixel*/
     display: grid;
     grid-template-columns: 460px fit-content(484px);
     /*460px 1fr;*/
@@ -26,7 +26,7 @@
 
 @media screen and (max-width: 767px) {
     .place {      
-      padding: 33px 0;
+      padding: 34px 0;
       grid-template-columns: minmax(288px, 1fr);
       grid-gap: 32px;
     }

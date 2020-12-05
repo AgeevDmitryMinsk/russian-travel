@@ -1,10 +1,10 @@
-.cover__overlay-link { 
+  .cover__overlay-link { 
     /* из вебинара от 26 ноября @Георгия Девяткина Респонсив и адаптив*/
     position: relative;
     text-decoration: none;
     color: #ffffff;
     background-image: url(../../../images/cover-trains-tiny.jpg);
-    background-size: contain;
+    background-size: contain; /*изменил обратно с cover;*/
     background-repeat: no-repeat;
     background-position: center;
     display: flex;
@@ -12,9 +12,10 @@
     justify-content: center;
     align-content: center;
     width: 100vw;
-    height: 62.5vw;        
+    min-height: 62.5vw;        /*добавил min-height тк просто height: 62.5vw; то неплохое решение, но оно будет адаптироваться при изменении окна, а не контента. 
+    Что будет если в данный элемент добавить больше контента, чем предусматривает данное значение 62.5vw?   */ 
       }
-      
+
 .cover__overlay-link::before {
     content: '';
     position: absolute;
@@ -23,16 +24,24 @@
     left: 0;
     bottom: 0;
     background: #2A2C2F;
+    transition: opacity 0.3s;
     opacity: 0.3;
 }
-      
+  
 .cover__overlay-link:hover::before {
     opacity: 0.8;
 }
-      
-      
+
 @media screen and (min-width: 1280px) {
     .cover__overlay-link {
     max-width: 1184px;
+    min-height: 740px; /*довавил min-height*/
     }
 }
+
+/*
+@media screen and (min-width: 768px) {
+    .cover__overlay-link {
+      padding-top: 21px; /*перенес из cover после сверки с PixelPerfect*/
+    /*}
+  }*/
