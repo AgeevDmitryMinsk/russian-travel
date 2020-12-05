@@ -38,10 +38,3 @@
     min-height: 740px; /*довавил min-height*/
     }
 }
-
-/*
-@media screen and (min-width: 768px) {
-    .cover__overlay-link {
-      padding-top: 21px; /*перенес из cover после сверки с PixelPerfect*/
-    /*}
-  }*/
